@@ -99,3 +99,32 @@ button {
   font-size: 24px;
   font-weight: 800;
 }
+
+.signup-container {
+  display: flex; justify-content: center; align-items: center;
+  padding: 50px 100px;
+}
+.signup {
+  flex: 1;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  display: flex; justify-content: center; align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+.signup button {
+  border-color: white;
+  border-style: solid;
+  box-shadow: none;
+}
+.signup h2, .signup p {
+  margin: 0;
+}
+
+.footer {
+  display: flex; justify-content: center; align-items: center;
+  padding: 20px 100px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
