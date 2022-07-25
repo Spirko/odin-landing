@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 2px 100px;
+}
+.logo {
+  font-size: 24px;
+  /* font-weight: 800; */
+}
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  background-color: #1f2937;
+  color: #efe7eb;
+  font-size: 18px;
+  gap: 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 20px;
+}
+
+.hero-image {
+  background-color: gray;
+  flex-shrink: 0;
+  align-self: stretch; /* Sets height */
+  width: 300px;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 12px;
+}
